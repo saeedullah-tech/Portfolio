@@ -246,7 +246,7 @@
     <h1>Saeed Ullah<br><span class="accent">turns raw tables into decisions.</span></h1>
     <p class="role-line">
       Detail-oriented Computer Science graduate with hands-on experience in <strong>Data Analytics, Business
-      Intelligence, and Reporting</strong> — skilled in SQL, Power BI, Excel, Tableau, and R, with practical
+      Intelligence, and Reporting</strong> — skilled in SQL,Python, Power BI, Excel, Tableau, and R, with practical
       experience in data cleaning, transformation, visualization, and dashboard development.
     </p>
     <div class="hero-meta">
@@ -269,7 +269,7 @@
       </div>
       <div class="metric">
         <div class="bars"><span style="height:60%;animation-delay:.05s"></span><span style="height:35%;animation-delay:.1s"></span><span style="height:80%;animation-delay:.15s"></span><span style="height:50%;animation-delay:.2s"></span><span style="height:70%;animation-delay:.25s"></span></div>
-        <div class="num">7</div>
+        <div class="num">9</div>
         <div class="label">data &amp; BI certifications</div>
       </div>
       <div class="metric">
@@ -323,6 +323,11 @@
         <div class="tag-cloud">
           <span class="tag">SQL</span>
           <span class="tag">PostgreSQL</span>
+          <span class="tag">Numpy</span>
+          <span class="tag">Pandas</span>
+          <span class="tag">Matlotlib</span>
+          <span class="tag">Seaborn</span>
+          <span class="tag"></span>
           <span class="tag">Power BI</span>
           <span class="tag">Tableau</span>
           <span class="tag">Microsoft Excel</span>
@@ -618,11 +623,13 @@
     </div>
     <div class="cert-grid">
       <div class="cert">Microsoft Power BI</div>
-      <div class="cert">Advanced Excel</div>
+      <div class="cert">Advanced Ms Excel</div>
       <div class="cert">SQL &amp; MySQL for Data Analysis</div>
-      <div class="cert">Data Analytics &amp; Business Intelligence</div>
+      <div class="cert"> Data Analytics with Python<div>
+      <div class="cert">Data Analytics &amp; Business Intelligence Training</div>
       <div class="cert">Introduction to Finance &amp; Accounting</div>
       <div class="cert">Front-End Web Development</div>
+      <div class="cert">SoftSkill Training</div> 
     </div>
   </div>
 </section>
