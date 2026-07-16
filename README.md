@@ -579,6 +579,21 @@
         <li>Visualized which technical skills appeared most often across analytics and BI postings.</li>
       </ul>
     </div>
+    <div class="project">
+  <div class="project-top">
+    <h3>
+  <a href="https://github.com/saeedullah-tech/Sales_Analysis" target="_blank">
+    Python Diwali Sales Analysis
+  </a>
+</h3>
+    <span class="tools">Python · Numpy · Pandas · Matplotlib · Seaborn</span>
+  </div>
+  <ul>
+    <li>Cleaned and analyzed 11,000+ festive-season retail transactions, resolving missing values and data type issues to produce a reliable 11,239-record dataset for analysis.</li>
+    <li>Built demographic and regional segmentation using Pandas groupby aggregations, uncovering a 70/30 revenue split by gender and identifying the top-performing states, occupations, and product categories.</li>
+    <li>Visualized purchasing patterns with Seaborn to define a clear target customer profile, translating raw transactional data into an actionable marketing recommendation.</li>
+  </ul>
+</div>
    </section>
 
 <section id="experience">
