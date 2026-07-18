@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+c<!DOCTYPE html>
 <html lang="en">
 <head>
 <meta charset="UTF-8">
@@ -604,7 +604,7 @@
     </div>
 
     <div class="xp-row">
-      <div class="xp-date">Mar 2025 — Present</div>
+      <div class="xp-date">Mar 2026 — Present</div>
       <div class="xp-body">
         <h4>Data &amp; Operations Associate</h4>
         <div class="org">Travel &amp; Visa Services Agency, Riyadh</div>
