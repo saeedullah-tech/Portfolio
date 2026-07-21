@@ -164,7 +164,7 @@
   @media (max-width:820px){ .about-grid{ grid-template-columns:1fr; } }
 
   /* ---------- SKILLS ---------- */
-  .skills-grid{ display:grid; grid-template-columns:1fr 1fr; gap:36px; margin-top:60px; }
+  .skills-grid{ display:grid; grid-template-columns:1fr 1fr 1fr; gap:36px; margin-top:60px; }
   .skill-col-head{
     font-family:var(--mono); font-size:11.5px; letter-spacing:.08em; text-transform:uppercase;
     color:var(--gold); margin-bottom:16px; padding-bottom:10px; border-bottom:1px solid var(--line);
@@ -175,7 +175,8 @@
     border:1px solid var(--line); padding:6px 12px; border-radius:3px; transition:.2s;
   }
   .tag:hover{ border-color:var(--gold); color:var(--ink); }
-  @media (max-width:820px){ .skills-grid{ grid-template-columns:1fr; } }
+  @media (max-width:920px){ .skills-grid{ grid-template-columns:1fr 1fr; } }
+  @media (max-width:620px){ .skills-grid{ grid-template-columns:1fr; } }
 
   /* ---------- PROJECTS ---------- */
   .ptable{ border:1px solid var(--line); border-radius:6px; overflow:hidden; }
@@ -269,7 +270,7 @@
     <div class="brand"><span class="stamp">SU</span> Saeed Ullah</div>
     <div class="navlinks">
       <a href="#about">About</a>
-      <a href="#skills">Skills</a>
+      <a href="#skills">Skills &amp; Tools</a>
       <a href="#projects">Projects</a>
       <a href="#experience">Experience</a>
       <a href="#certifications">Certs</a>
@@ -293,7 +294,7 @@
     </div>
 
     <div class="hero-tags">
-      <span class="htag">Junior Data Analyst</span>
+      <span class="htag">Data Analyst</span>
       <span class="htag">Reporting Analyst</span>
       <span class="htag">BI Analyst</span>
       <span class="htag">Power BI Developer</span>
@@ -348,12 +349,12 @@
 <section id="skills">
   <div class="wrap">
     <div class="section-head reveal">
-      <h2>Skills</h2>
+      <h2>Skills &amp; Tools</h2>
       <span class="section-tag">Cell B1:C9</span>
     </div>
     <div class="skills-grid">
       <div class="reveal">
-        <div class="skill-col-head">Tools &amp; Languages</div>
+        <div class="skill-col-head">Languages &amp; Platforms</div>
         <div class="tag-cloud">
           <span class="tag">SQL (PostgreSQL)</span>
           <span class="tag">PostgreSQL &amp; pgAdmin 4</span>
@@ -362,10 +363,17 @@
           <span class="tag">Microsoft Excel (Power Query, Pivot Tables, Advanced Formulas)</span>
           <span class="tag">Tableau</span>
           <span class="tag">R Programming</span>
+        </div>
+      </div>
+      <div class="reveal">
+        <div class="skill-col-head">Tools</div>
+        <div class="tag-cloud">
           <span class="tag">Git &amp; GitHub</span>
           <span class="tag">Jupyter Notebook</span>
           <span class="tag">Visual Studio Code</span>
           <span class="tag">Microsoft Office Suite</span>
+          <span class="tag">pgAdmin 4</span>
+          <span class="tag">Power Query</span>
         </div>
       </div>
       <div class="reveal">
@@ -572,7 +580,7 @@
 <footer id="contact">
   <div class="wrap footer-inner reveal">
     <h2>Let's talk data.</h2>
-    <p>Open to Junior Data Analyst, Reporting Analyst, BI Analyst, Operations Analyst, and entry-level Business
+    <p>Open to Data Analyst, Reporting Analyst, BI Analyst, Operations Analyst, and entry-level Business
     Analyst roles across Saudi Arabia. Based in Riyadh with a transferable Iqama.</p>
     <div class="contact-row">
       <a class="contact-btn primary" href="mailto:Saeedtech990@gmail.com">Saeedtech990@gmail.com</a>
@@ -589,7 +597,7 @@
 <script>
   // formula bar cycling
   const formulas = [
-    { fx: '=JOIN(SQL, "Power BI", Python, Excel)', out: '→ Junior Data Analyst' },
+    { fx: '=JOIN(SQL, "Power BI", Python, Excel)', out: '→ Data Analyst' },
     { fx: '=CLEAN(raw_data) → dashboard', out: '→ Reporting Analyst' },
     { fx: '=VLOOKUP("root cause", data!A:Z)', out: '→ BI Analyst' },
     { fx: '=SUM(49000, 25, 9) & " wins"', out: '→ Operations Analyst' }
