@@ -419,36 +419,57 @@
     </div>
 
     <div class="ptable reveal">
-      <details class="project" open>
+     <details class="project" open>
         <summary class="project-sum">
           <div class="psum-left">
-            <h3><a href="https://github.com/saeedullah-tech/Mobile-Sales-Dashboard" target="_blank">SQL Sales &amp; Mobile Sales Dashboard</a></h3>
-            <span class="tools">PostgreSQL · pgAdmin 4 · Power BI</span>
+            <h3><a href="https://github.com/saeedullah-tech/REAL-ESTATE-dashboard" target="_blank">European Real Estate Market & Pricing Analytics Dashboard</a></h3>
+            <span class="tools">Power BI · DAX · Data Modeling · Bing Maps</span>
           </div>
           <span class="chevron">▸</span>
         </summary>
         <div class="project-body">
           <ul>
-            <li>Queried and analyzed a transactional dataset of 49,000+ sales records to identify revenue drivers, order patterns, and product-level performance.</li>
-            <li>Wrote multi-table SQL — joins, aggregations, and window functions — to break sales down by category, time of day, and order size.</li>
-            <li>Packaged findings into a presentation-ready summary and a documented GitHub repository.</li>
+            <li>Built an interactive Power BI dashboard analyzing 5,000+ property listings across 10 major European cities to surface pricing, growth, and compliance risk patterns hidden in traditional reports.</li>
+            <li>Designed DAX measures — Price Growth %, Price per m², Days on Market, Market Speed Classification, and Premium Amenities Score — to quantify property performance and market velocity.</li>
+            <li>Built a pricing risk model classifying listings as Overpriced, Below District Average, or Normal, giving stakeholders visibility into risk exposure by property domain and listing owner.</li>
+            <li>Integrated geographic map visuals to track price growth by city and country, supporting location-driven investment and pricing decisions.</li>
+            <li>Delivered a multi-page executive dashboard linking data quality and compliance to pricing outcomes, supporting reduced holding costs and improved listing accuracy.</li>
           </ul>
         </div>
       </details>
-
-      <details class="project">
+      <details class="project" open>
         <summary class="project-sum">
           <div class="psum-left">
-            <h3><a href="https://github.com/saeedullah-tech/Loan_Repayment_Analysis" target="_blank">Loan Repayment Analysis</a></h3>
-            <span class="tools">Power BI · DAX</span>
+            <h3><a href="https://github.com/saeedullah-tech/netflixSQL-project" target="_blank">Netflix Content Analysis — SQL</a></h3>
+            <span class="tools">PostgreSQL · SQL</span>
           </div>
           <span class="chevron">▸</span>
         </summary>
         <div class="project-body">
           <ul>
-            <li>Designed a star-schema data model from loan and repayment data to support fast, accurate filtering by loan status, tenure, and customer segment.</li>
-            <li>Built DAX measures for repayment rate, overdue balance tracking, and month-over-month comparisons.</li>
-            <li>Surfaced at-risk loan segments in an interactive dashboard built to support collections prioritization.</li>
+            <li>Analyzed Netflix's full movies and TV shows catalog using SQL to answer 14 business questions on content distribution, ratings, and regional trends.</li>
+            <li>Wrote advanced queries using window functions, array unnesting, and date parsing to break down content by country, genre, director, and cast.</li>
+            <li>Built a content categorization model flagging titles by keyword sentiment (e.g., violence-related themes) to support content moderation insights.</li>
+            <li>Identified the top 5 countries by content volume and ranked release years in India by average content output, surfacing regional programming trends.</li>
+            <li>Documented all queries and findings in a structured GitHub repository for reproducibility and reference.</li>
+          </ul>
+        </div>
+      </details>
+          <details class="project" open>
+        <summary class="project-sum">
+          <div class="psum-left">
+            <h3><a href="https://github.com/saeedullah-tech/excel-pivot-dashboard-project" target="_blank">Excel Sales Performance Dashboard</a></h3>
+            <span class="tools">Excel · Pivot Tables · Pivot Charts · Slicers</span>
+          </div>
+          <span class="chevron">▸</span>
+        </summary>
+        <div class="project-body">
+          <ul>
+            <li>Built an interactive Excel dashboard using Pivot Tables and Pivot Charts to track sales performance, order status, and customer demographics across regions.</li>
+            <li>Designed monthly sales trend visuals to surface seasonality and identify high and low performing periods.</li>
+            <li>Broke down order status (Delivered, Cancelled, Returned, Refunded) to highlight fulfillment issues affecting revenue.</li>
+            <li>Segmented customer data by gender, age group, and state to identify top-performing markets and sales channels.</li>
+            <li>Added interactive slicers for Month, Status, and Channel, enabling stakeholders to filter insights without technical support.</li>
           </ul>
         </div>
       </details>
@@ -503,6 +524,23 @@
           </ul>
         </div>
       </details>
+      <details class="project" open>
+        <summary class="project-sum">
+          <div class="psum-left">
+            <h3><a href="https://github.com/saeedullah-tech/Mobile-Sales-Dashboard" target="_blank">Mobile Sales Performance Dashboard</a></h3>
+            <span class="tools">Power BI · DAX · Data Modeling</span>
+          </div>
+          <span class="chevron">▸</span>
+        </summary>
+        <div class="project-body">
+          <ul>
+            <li>Built an interactive Power BI dashboard analyzing 4,000+ transactions to track mobile sales performance across cities, brands, and time periods.</li>
+            <li>Designed DAX measures for MTD sales, average price, and quantity aggregations, consolidating KPIs into a single real-time reporting view.</li>
+            <li>Built a geographic map visual identifying top-performing cities (Delhi, Mumbai, Bangalore), directing regional sales and marketing focus.</li>
+            <li>Analyzed brand and product-level performance across Apple, Samsung, OnePlus, and Vivo to surface best-selling models and revenue drivers.</li>
+            <li>Incorporated customer rating and payment method analysis, linking product satisfaction data to purchasing behavior for retention.</li></ul>
+            </div>
+            </details>
     </div>
 
     <div class="more-projects reveal">
