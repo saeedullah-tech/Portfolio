@@ -550,8 +550,6 @@
         <a class="chip" href="https://github.com/saeedullah-tech/Credit-Card-Fraud-Risk-Analysis" target="_blank">Credit Card Fraud Risk Analysis</a>
         <a class="chip" href="https://github.com/saeedullah-tech/excel-pivot-dashboard-project" target="_blank">Excel Pivot Dashboard</a>
         <a class="chip" href="https://github.com/saeedullah-tech/Pizza-Sales-Analysis" target="_blank">Pizza Sales Analysis</a>
-        <a class="chip" href="https://github.com/saeedullah-tech/Sales-Analysis" target="_blank">Sales Analysis</a>
-        <a class="chip" href="https://github.com/saeedullah-tech/netflixSQL-project" target="_blank">Netflix SQL Project</a>
         <a class="chip" href="https://github.com/saeedullah-tech/Library-Management-System-" target="_blank">Library Management System</a>
       </div>
     </div>
