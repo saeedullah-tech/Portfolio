@@ -307,7 +307,6 @@
       </div>
       <div class="ledger-body">
         <div class="rownum">1</div>
-        <div class="lcell"><div class="num">49K+</div><div class="lab">transaction rows queried in SQL</div></div>
         <div class="lcell"><div class="num">25</div><div class="lab">end-to-end analytics &amp; BI projects</div></div>
         <div class="lcell"><div class="num">9</div><div class="lab">data &amp; BI certifications</div></div>
         <div class="lcell"><div class="num">3</div><div class="lab">tools in daily use: SQL, Power BI, Excel</div></div>
@@ -368,19 +367,21 @@
       <div class="reveal">
         <div class="skill-col-head">Tools</div>
         <div class="tag-cloud">
-          <span class="tag">Git &amp; GitHub</span>
+          <span class="tag">Power BI</span>
+          <span class="tag">Tabluea</span>
+          <span class="tag">R Studio</span>
           <span class="tag">Jupyter Notebook</span>
           <span class="tag">Visual Studio Code</span>
           <span class="tag">Microsoft Office Suite</span>
           <span class="tag">pgAdmin 4</span>
           <span class="tag">Power Query</span>
+          <span class="tag">GitHub</span>
         </div>
       </div>
       <div class="reveal">
         <div class="skill-col-head">Analytical Skills</div>
         <div class="tag-cloud">
           <span class="tag">Data Cleaning &amp; Data Transformation</span>
-          <span class="tag">Data Wrangling</span>
           <span class="tag">Exploratory Data Analysis (EDA)</span>
           <span class="tag">Statistical Analysis</span>
           <span class="tag">ETL Concepts</span>
@@ -400,7 +401,6 @@
           <span class="tag">Analytical Thinking</span>
           <span class="tag">Attention to Detail</span>
           <span class="tag">Communication Skills</span>
-          <span class="tag">Presentation Skills</span>
           <span class="tag">Documentation</span>
           <span class="tag">Team Collaboration</span>
           <span class="tag">Time Management</span>
