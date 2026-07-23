@@ -274,6 +274,7 @@
       <a href="#projects">Projects</a>
       <a href="#experience">Experience</a>
       <a href="#certifications">Certs</a>
+      <a href="https://github.com/saeedullah-tech/saeedullah-tech/blob/fe3a69b06d2d6c9ebb6ecb70ef648b49b720b7a9/Saeed_Ullah_CV.pdf">CV</a>
       <a class="cta" href="#contact">Contact</a>
     </div>
   </div>
