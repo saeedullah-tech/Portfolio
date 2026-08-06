@@ -456,6 +456,24 @@
           </ul>
         </div>
       </details>
+      <details class="project" open>
+  <summary class="project-sum">
+    <div class="psum-left">
+      <h3><a href="https://github.com/saeedullah-tech/Oil-Gas-Executive-Dashboard" target="_blank">Oil & Gas Executive Dashboard — Power BI</a></h3>
+      <span class="tools">Power BI · DAX · Power Query · Excel</span>
+    </div>
+    <span class="chevron">▸</span>
+  </summary>
+  <div class="project-body">
+    <ul>
+      <li>Developed a comprehensive Power BI solution consisting of three interactive dashboards: Executive Overview, Financial Performance, and Production Performance.</li>
+      <li>Built a star schema data model and created DAX measures for KPIs, Year-over-Year (YoY), Month-over-Month (MoM), trend analysis, and business performance reporting.</li>
+      <li>Designed interactive visualizations to monitor revenue, maintenance costs, production, oil prices, energy consumption, CO₂ emissions, and safety incidents across multiple countries and site types.</li>
+      <li>Transformed and cleaned raw data using Power Query, implemented dynamic slicers, cross-filtering, and conditional formatting to improve report usability.</li>
+      <li>Delivered an executive reporting solution that enables stakeholders to identify operational trends, compare country performance, and support data-driven decision-making.</li>
+    </ul>
+  </div>
+</details>
           <details class="project" open>
         <summary class="project-sum">
           <div class="psum-left">
