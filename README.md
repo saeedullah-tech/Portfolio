@@ -1,700 +1,224 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Saeed Ullah — Data & BI Analyst</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Saeed Ullah | Data &amp; BI Analyst, Riyadh</title>
+<meta name="description" content="Data and BI analyst in Riyadh. SQL, Power BI, Excel and Python. 16 portfolio projects, 9 certifications.">
 <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,500;9..144,600;9..144,700&family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:wght@500;700&family=Source+Sans+3:wght@400;600&display=swap" rel="stylesheet">
 <style>
-  :root{
-    --paper:#EEF0EA;
-    --paper-deep:#E4E7DE;
-    --line:#C9CFC0;
-    --line-soft:#DADFD1;
-    --ink:#161F17;
-    --ink-soft:#4C5750;
-    --ink-faint:#8A937F;
-    --card:#F7F8F3;
-    --gold:#C8871F;
-    --gold-soft:#E9C889;
-    --blue:#2C4A72;
-    --blue-soft:#7C9CC0;
-    --red-stamp:#9B3B2E;
-    --serif:"Fraunces","Georgia",serif;
-    --sans:"Inter","Segoe UI",system-ui,-apple-system,sans-serif;
-    --mono:"JetBrains Mono","SFMono-Regular",Consolas,monospace;
-  }
+:root{--bg:#F6F8FA;--panel:#fff;--ink:#0E2236;--soft:#46586B;--faint:#7A8A99;--line:#D8E0E8;--green:#0B6B50;--green-bg:#E4F2EC;--amber:#B7791F;
+--head:"Bricolage Grotesque","Segoe UI",Arial,sans-serif;--body:"Source Sans 3","Segoe UI",Arial,sans-serif}
+*{box-sizing:border-box;margin:0;padding:0}
+html{scroll-behavior:smooth}
+body{background:var(--bg);color:var(--ink);font:17px/1.6 var(--body);-webkit-font-smoothing:antialiased}
+a{color:inherit}
+:focus-visible{outline:3px solid var(--amber);outline-offset:3px}
+.wrap{max-width:980px;margin:0 auto;padding:0 24px}
+nav{position:sticky;top:0;z-index:5;background:rgba(246,248,250,.94);backdrop-filter:blur(6px);border-bottom:1px solid var(--line)}
+nav .wrap{display:flex;justify-content:space-between;align-items:center;height:60px;gap:16px}
+.logo{font:700 18px var(--head);text-decoration:none}
+.links{display:flex;gap:22px;font-size:15px;color:var(--soft)}
+.links a{text-decoration:none}.links a:hover{color:var(--green)}
+@media(max-width:700px){.links a:not(.hire){display:none}}
+.hire{background:var(--green);color:#fff;padding:7px 16px;border-radius:6px;font-weight:600}
+.hire:hover{background:var(--ink);color:#fff!important}
 
-  *{box-sizing:border-box; margin:0; padding:0;}
-  html{scroll-behavior:smooth;}
-  body{
-    background:
-      repeating-linear-gradient(to bottom, transparent, transparent 35px, rgba(20,26,20,0.035) 35px, rgba(20,26,20,0.035) 36px),
-      var(--paper);
-    color:var(--ink);
-    font-family:var(--sans);
-    line-height:1.6;
-    -webkit-font-smoothing:antialiased;
-  }
-  a{color:inherit; text-decoration:none;}
-  ::selection{ background:var(--gold-soft); color:var(--ink); }
-  img{max-width:100%; display:block;}
+header{padding:72px 0 56px}
+h1{font:700 clamp(40px,7vw,72px)/1.02 var(--head);letter-spacing:-.02em;max-width:12em}
+.lede{margin-top:22px;max-width:36em;font-size:20px;color:var(--soft)}
+.lede b{color:var(--ink);font-weight:600}
+.cta{margin-top:30px;display:flex;flex-wrap:wrap;gap:12px}
+.btn{padding:11px 20px;border:1px solid var(--ink);border-radius:6px;text-decoration:none;font-weight:600;font-size:16px}
+.btn.main{background:var(--ink);color:#fff}
+.btn:hover{border-color:var(--green);background:var(--green);color:#fff}
 
-  .wrap{ max-width:1040px; margin:0 auto; padding:0 30px; }
+.snap{margin-top:48px;background:var(--panel);border:1px solid var(--line);border-left:6px solid var(--green);border-radius:6px;display:grid;grid-template-columns:repeat(2,1fr)}
+.snap div{padding:18px 22px;border-bottom:1px solid var(--line)}
+.snap div:nth-last-child(-n+2){border-bottom:none}
+.snap div:nth-child(odd){border-right:1px solid var(--line)}
+.snap dt{font-size:14px;color:var(--faint)}
+.snap dd{font-weight:600;margin-top:2px}
+@media(max-width:700px){.snap{grid-template-columns:1fr}.snap div{border-right:none!important}.snap div:nth-last-child(2){border-bottom:1px solid var(--line)}}
 
-  .reveal{ opacity:0; transform:translateY(14px); transition:opacity .6s ease, transform .6s ease; }
-  .reveal.in{ opacity:1; transform:translateY(0); }
+section{padding:64px 0;border-top:1px solid var(--line)}
+h2{font:700 32px/1.15 var(--head);letter-spacing:-.01em;margin-bottom:8px}
+.sub{color:var(--soft);margin-bottom:34px;max-width:40em}
 
-  a:focus-visible, button:focus-visible, summary:focus-visible{
-    outline:2px solid var(--gold); outline-offset:3px; border-radius:2px;
-  }
+.about p{max-width:40em;color:var(--soft);margin-bottom:14px}
+.about p b{color:var(--ink)}
 
-  /* ---------- NAV ---------- */
-  nav{
-    position:sticky; top:0; z-index:50;
-    background:rgba(238,240,234,0.9);
-    backdrop-filter: blur(8px);
-    border-bottom:1px solid var(--line);
-  }
-  nav .wrap{ display:flex; align-items:center; justify-content:space-between; height:66px; }
-  .brand{ display:flex; align-items:center; gap:10px; font-family:var(--serif); font-weight:600; font-size:18px; }
-  .stamp{
-    width:32px; height:32px; border-radius:50%; border:1.5px solid var(--ink);
-    display:flex; align-items:center; justify-content:center;
-    font-family:var(--mono); font-size:11px; font-weight:700; letter-spacing:.02em;
-    transform:rotate(-6deg);
-  }
-  .navlinks{ display:flex; align-items:center; gap:26px; font-family:var(--mono); font-size:12.5px; color:var(--ink-soft); }
-  .navlinks a{ transition:color .2s; border-bottom:1px solid transparent; padding-bottom:2px; }
-  .navlinks a:hover{ color:var(--ink); border-color:var(--gold); }
-  .navlinks .cta{
-    background:var(--ink); color:var(--paper); padding:8px 15px; border-radius:3px;
-    letter-spacing:.03em;
-  }
-  .navlinks .cta:hover{ background:var(--blue); }
-  @media (max-width:720px){ .navlinks a:not(.cta){ display:none; } }
+.skills{display:grid;grid-template-columns:repeat(3,1fr);gap:30px}
+.skills h3{font:700 17px var(--head);margin-bottom:10px;padding-bottom:8px;border-bottom:2px solid var(--green)}
+.skills li{list-style:none;color:var(--soft);font-size:16px;padding:3px 0}
+@media(max-width:800px){.skills{grid-template-columns:1fr}}
 
-  /* ---------- HERO ---------- */
-  header.hero{ padding:76px 0 0; }
-  .eyebrow{
-    font-family:var(--mono); font-size:12px; letter-spacing:.1em; text-transform:uppercase;
-    color:var(--gold); margin-bottom:20px; display:flex; align-items:center; gap:8px;
-  }
-  .eyebrow .cellref{
-    border:1px solid var(--line); background:var(--card); padding:2px 7px; border-radius:2px; color:var(--ink-soft);
-  }
-  h1{
-    font-family:var(--serif); font-weight:600; font-size:clamp(38px,6vw,66px);
-    letter-spacing:-0.01em; line-height:1.04; color:var(--ink);
-  }
-  h1 em{ font-style:italic; font-weight:500; color:var(--blue); }
+.job{display:grid;grid-template-columns:170px 1fr;gap:26px;padding:26px 0;border-bottom:1px solid var(--line)}
+.job:last-child{border-bottom:none}
+.when{color:var(--faint);font-size:15px;padding-top:4px}
+.job h3{font:700 21px var(--head)}
+.org{color:var(--green);font-weight:600;margin:2px 0 10px}
+ul.pts{padding-left:20px;color:var(--soft)}
+ul.pts li{margin-bottom:6px}
+.big{font-weight:600;color:var(--ink)}
+@media(max-width:700px){.job{grid-template-columns:1fr;gap:4px}}
 
-  .role-line{ margin-top:22px; font-size:17px; color:var(--ink-soft); max-width:600px; }
-  .role-line strong{ color:var(--ink); font-weight:600; }
+.group{margin-top:38px}
+.group:first-of-type{margin-top:0}
+.group h3{font:700 22px var(--head);display:flex;align-items:baseline;gap:12px;margin-bottom:12px}
+.group h3 span{font:400 15px var(--body);color:var(--faint)}
+details{background:var(--panel);border:1px solid var(--line);border-radius:6px;margin-bottom:10px}
+details[open]{border-color:var(--green)}
+summary{list-style:none;cursor:pointer;padding:16px 20px;display:grid;grid-template-columns:1fr auto;gap:4px 16px;align-items:start}
+summary::-webkit-details-marker{display:none}
+summary::after{content:"+";grid-column:2;grid-row:1/3;font:600 24px/1 var(--head);color:var(--green)}
+details[open] summary::after{content:"\2212"}
+.pt{font:700 18px var(--head)}
+.res{color:var(--soft);font-size:16px;grid-column:1}
+.tools{grid-column:1;font-size:14px;color:var(--green);font-weight:600}
+.body{padding:2px 20px 18px}
+.body a{color:var(--green);font-weight:600;font-size:15px;display:inline-block;margin-top:8px}
 
-  /* formula bar */
-  .fx-bar{
-    margin-top:36px; display:flex; align-items:center; gap:0;
-    border:1px solid var(--line); background:var(--card); border-radius:5px; overflow:hidden;
-    max-width:600px;
-  }
-  .fx-label{
-    font-family:var(--mono); font-size:12.5px; color:var(--ink-faint); background:var(--paper-deep);
-    padding:11px 14px; border-right:1px solid var(--line); font-weight:600;
-  }
-  .fx-text{
-    font-family:var(--mono); font-size:13.5px; color:var(--blue); padding:11px 14px; flex:1;
-    white-space:nowrap; overflow:hidden;
-  }
-  .fx-text .cursor{ display:inline-block; width:7px; height:14px; background:var(--gold); margin-left:2px; vertical-align:-2px; animation:blink 1s step-end infinite; }
-  @keyframes blink{ 50%{ opacity:0; } }
+.chips{display:flex;flex-wrap:wrap;gap:10px;margin-top:10px}
+.chip{padding:8px 14px;border:1px solid var(--line);background:var(--panel);border-radius:6px;text-decoration:none;font-size:15px;color:var(--soft)}
+.chip:hover{border-color:var(--green);color:var(--green)}
 
-  .hero-tags{ margin-top:28px; display:flex; flex-wrap:wrap; gap:8px; }
-  .htag{
-    font-family:var(--mono); font-size:12px; color:var(--ink-soft);
-    border:1px solid var(--line); padding:5px 11px; border-radius:20px; background:var(--card);
-  }
+.certs{display:grid;grid-template-columns:repeat(2,1fr);gap:10px 30px;list-style:none}
+.certs li{padding:10px 0 10px 28px;border-bottom:1px solid var(--line);position:relative;color:var(--soft)}
+.certs li::before{content:"\2713";position:absolute;left:0;color:var(--green);font-weight:700}
+@media(max-width:700px){.certs{grid-template-columns:1fr}}
 
-  /* ledger metric row */
-  .ledger-row{ margin-top:52px; border:1px solid var(--line); border-radius:6px; overflow:hidden; }
-  .ledger-head{
-    display:grid; grid-template-columns:56px repeat(4,1fr); background:var(--paper-deep);
-    font-family:var(--mono); font-size:11px; color:var(--ink-faint); letter-spacing:.06em;
-  }
-  .ledger-head div{ padding:8px 14px; border-right:1px solid var(--line); }
-  .ledger-head div:last-child{ border-right:none; }
-  .ledger-body{ display:grid; grid-template-columns:56px repeat(4,1fr); background:var(--card); }
-  .ledger-body .rownum{
-    display:flex; align-items:center; justify-content:center; font-family:var(--mono);
-    font-size:12px; color:var(--ink-faint); border-right:1px solid var(--line);
-  }
-  .lcell{ padding:20px 14px; border-right:1px solid var(--line); }
-  .lcell:last-child{ border-right:none; }
-  .lcell .num{ font-family:var(--mono); font-size:24px; font-weight:700; color:var(--ink); }
-  .lcell .lab{ font-size:12px; color:var(--ink-soft); margin-top:5px; }
-  @media (max-width:720px){
-    .ledger-head{ display:none; }
-    .ledger-body{ grid-template-columns:1fr; }
-    .ledger-body .rownum{ display:none; }
-    .lcell{ border-right:none; border-bottom:1px solid var(--line); }
-    .lcell:last-child{ border-bottom:none; }
-  }
-
-  /* ---------- SECTION SCAFFOLD ---------- */
-  section{ padding:80px 0; border-bottom:1px solid var(--line); }
-  .section-head{ display:flex; align-items:baseline; justify-content:space-between; margin-bottom:40px; gap:16px; }
-  .section-head h2{ font-family:var(--serif); font-size:30px; font-weight:600; letter-spacing:-0.01em; }
-  .section-tag{ font-family:var(--mono); font-size:11.5px; color:var(--ink-faint); letter-spacing:.06em; text-transform:uppercase; }
-
-  /* ---------- ABOUT ---------- */
-  .about-grid{ display:grid; grid-template-columns:1.25fr 1fr; gap:52px; }
-  .about-grid p{ color:var(--ink-soft); font-size:15.5px; margin-bottom:15px; }
-  .about-grid p strong{ color:var(--ink); font-weight:600; }
-  .keyfacts{ border:1px solid var(--line); border-radius:6px; overflow:hidden; background:var(--card); }
-  .kf-row{ display:grid; grid-template-columns:52px 1fr; border-bottom:1px solid var(--line-soft); }
-  .kf-row:last-child{ border-bottom:none; }
-  .kf-cell{
-    font-family:var(--mono); font-size:11.5px; color:var(--ink-faint); background:var(--paper-deep);
-    display:flex; align-items:center; justify-content:center; border-right:1px solid var(--line-soft);
-  }
-  .kf-val{ padding:13px 16px; font-size:13.5px; color:var(--ink-soft); }
-  .kf-val strong{ color:var(--ink); font-weight:600; }
-  @media (max-width:820px){ .about-grid{ grid-template-columns:1fr; } }
-
-  /* ---------- SKILLS ---------- */
-  .skills-grid{ display:grid; grid-template-columns:1fr 1fr 1fr; gap:36px; margin-top:60px; }
-  .skill-col-head{
-    font-family:var(--mono); font-size:11.5px; letter-spacing:.08em; text-transform:uppercase;
-    color:var(--gold); margin-bottom:16px; padding-bottom:10px; border-bottom:1px solid var(--line);
-  }
-  .tag-cloud{ display:flex; flex-wrap:wrap; gap:8px; }
-  .tag{
-    font-size:12.5px; color:var(--ink-soft); background:var(--card);
-    border:1px solid var(--line); padding:6px 12px; border-radius:3px; transition:.2s;
-  }
-  .tag:hover{ border-color:var(--gold); color:var(--ink); }
-  @media (max-width:920px){ .skills-grid{ grid-template-columns:1fr 1fr; } }
-  @media (max-width:620px){ .skills-grid{ grid-template-columns:1fr; } }
-
-  /* ---------- PROJECTS ---------- */
-  .ptable{ border:1px solid var(--line); border-radius:6px; overflow:hidden; }
-  details.project{ border-bottom:1px solid var(--line); background:var(--card); }
-  details.project:last-of-type{ border-bottom:none; }
-  details.project[open]{ background:#FBFBF8; }
-  summary.project-sum{
-    list-style:none; cursor:pointer; padding:20px 22px; display:flex; align-items:center;
-    justify-content:space-between; gap:16px; flex-wrap:wrap;
-  }
-  summary.project-sum::-webkit-details-marker{ display:none; }
-  .psum-left{ display:flex; align-items:baseline; gap:14px; flex-wrap:wrap; }
-  .project h3{ font-family:var(--serif); font-size:19px; font-weight:600; color:var(--ink); }
-  .project h3 a{ border-bottom:1px solid transparent; }
-  .project h3 a:hover{ border-color:var(--gold); }
-  .tools{
-    font-family:var(--mono); font-size:11px; color:var(--blue);
-    background:rgba(44,74,114,0.07); border:1px solid var(--blue-soft);
-    padding:3px 9px; border-radius:20px; white-space:nowrap;
-  }
-  .chevron{ font-family:var(--mono); font-size:13px; color:var(--ink-faint); transition:transform .25s; }
-  details[open] .chevron{ transform:rotate(90deg); }
-  .project-body{ padding:0 22px 22px; }
-  .project ul{ list-style:none; display:flex; flex-direction:column; gap:9px; margin-top:6px; }
-  .project li{ color:var(--ink-soft); font-size:14.5px; padding-left:18px; position:relative; }
-  .project li::before{ content:"—"; position:absolute; left:0; color:var(--gold); }
-
-  .more-projects{ margin-top:24px; }
-  .more-projects .cap{ font-family:var(--mono); font-size:11.5px; color:var(--ink-faint); margin-bottom:12px; }
-  .chip-row{ display:flex; flex-wrap:wrap; gap:10px; }
-  .chip{
-    font-family:var(--mono); font-size:12.5px; color:var(--ink-soft); border:1px solid var(--line);
-    background:var(--card); padding:8px 13px; border-radius:4px; display:flex; align-items:center; gap:6px;
-  }
-  .chip:hover{ border-color:var(--gold); color:var(--ink); }
-  .chip::after{ content:"↗"; color:var(--ink-faint); }
-
-  /* ---------- EXPERIENCE ---------- */
-  .xp-row{ display:grid; grid-template-columns:150px 1fr; gap:24px; padding:26px 0; border-bottom:1px solid var(--line-soft); }
-  .xp-row:last-child{ border-bottom:none; }
-  .xp-date{ font-family:var(--mono); font-size:12px; color:var(--ink-faint); padding-top:3px; }
-  .xp-body h4{ font-family:var(--serif); font-size:18px; color:var(--ink); font-weight:600; }
-  .xp-body .org{ font-size:13.5px; color:var(--blue); margin-top:3px; margin-bottom:12px; font-weight:500; }
-  .xp-body ul{ list-style:none; display:flex; flex-direction:column; gap:8px; }
-  .xp-body li{ color:var(--ink-soft); font-size:14.5px; padding-left:16px; position:relative; }
-  .xp-body li::before{ content:"—"; position:absolute; left:0; color:var(--ink-faint); }
-  @media (max-width:680px){ .xp-row{ grid-template-columns:1fr; gap:6px; } }
-
-  /* ---------- CERTS ---------- */
-  .cert-grid{ display:grid; grid-template-columns:repeat(2,1fr); gap:12px; }
-  .cert{
-    border:1px solid var(--line); border-radius:5px; padding:14px 16px; background:var(--card);
-    font-size:13.5px; color:var(--ink-soft); display:flex; align-items:center; gap:11px;
-  }
-  .cert .badge{
-    width:20px; height:20px; border-radius:50%; border:1.4px solid var(--gold); color:var(--gold);
-    font-family:var(--mono); font-size:11px; font-weight:700; display:flex; align-items:center; justify-content:center; flex-shrink:0;
-  }
-  @media (max-width:680px){ .cert-grid{ grid-template-columns:1fr; } }
-
-  /* ---------- FOOTER ---------- */
-  footer{ padding:76px 0 50px; }
-  .footer-inner{ text-align:center; }
-  footer h2{ font-family:var(--serif); font-size:34px; font-weight:600; margin-bottom:14px; }
-  footer p{ color:var(--ink-soft); max-width:480px; margin:0 auto 32px; font-size:15px; }
-  .contact-row{ display:flex; justify-content:center; gap:12px; flex-wrap:wrap; }
-  .contact-btn{
-    font-family:var(--mono); font-size:13px; padding:11px 20px; border-radius:4px;
-    border:1px solid var(--line); color:var(--ink-soft); transition:.2s; background:var(--card);
-  }
-  .contact-btn.primary{ background:var(--ink); color:var(--paper); border-color:var(--ink); font-weight:600; }
-  .contact-btn:hover{ border-color:var(--gold); color:var(--ink); }
-  .contact-btn.primary:hover{ background:var(--blue); border-color:var(--blue); }
-  .balance-line{
-    margin-top:44px; padding-top:20px; border-top:1px dashed var(--line);
-    font-family:var(--mono); font-size:11.5px; color:var(--ink-faint);
-    display:flex; justify-content:space-between; flex-wrap:wrap; gap:8px;
-  }
-
-  @media (prefers-reduced-motion: reduce){
-    html{ scroll-behavior:auto; }
-    .reveal{ opacity:1; transform:none; transition:none; }
-    .cursor{ animation:none; }
-  }
+.contact{background:var(--ink);color:#fff;border-top:none}
+.contact h2{color:#fff}
+.contact p{color:#C5D1DC;max-width:36em;margin-bottom:24px}
+.contact .btn{border-color:#fff;color:#fff}
+.contact .btn.main{background:#fff;color:var(--ink)}
+.contact .btn:hover{background:var(--green);border-color:var(--green);color:#fff}
+footer{background:var(--ink);color:#8FA2B4;font-size:14px;padding:0 0 32px}
+@media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}}
 </style>
 </head>
 <body>
+<nav><div class="wrap"><a class="logo" href="#top">Saeed Ullah</a>
+<div class="links"><a href="#about">About</a><a href="#experience">Experience</a><a href="#projects">Projects</a><a href="#skills">Skills</a><a href="#education">Education</a><a href="#contact" class="hire">Contact</a></div></div></nav>
 
-<nav>
-  <div class="wrap">
-    <div class="brand"><span class="stamp">SU</span> Saeed Ullah</div>
-    <div class="navlinks">
-      <a href="#about">About</a>
-      <a href="#skills">Skills &amp; Tools</a>
-      <a href="#projects">Projects</a>
-      <a href="#experience">Experience</a>
-      <a href="#certifications">Certs</a>
-      <a href="https://github.com/saeedullah-tech/saeedullah-tech/blob/fe3a69b06d2d6c9ebb6ecb70ef648b49b720b7a9/Saeed_Ullah_CV.pdf">CV</a>
-      <a class="cta" href="#contact">Contact</a>
-    </div>
-  </div>
-</nav>
+<header id="top"><div class="wrap">
+<h1>Saeed Ullah, data and BI analyst in Riyadh</h1>
+<p class="lede">I turn messy tables into dashboards and reports that managers can act on. I work in <b>SQL, Power BI, Excel and Python</b>, and I already handle stock and data for 400+ locations at Noon.</p>
+<div class="cta"><a class="btn main" href="CV.pdf">Download CV</a><a class="btn" href="#projects">See my projects</a><a class="btn" href="mailto:Saeedtech990@gmail.com">Email me</a></div>
+<dl class="snap">
+<div><dt>Looking for</dt><dd>Junior Data Analyst, BI Analyst, Power BI Developer, Reporting or Operations Analyst</dd></div>
+<div><dt>Based in</dt><dd>Riyadh, Saudi Arabia (transferable Iqama)</dd></div>
+<div><dt>Languages</dt><dd>English (fluent), Arabic (intermediate), Urdu (native)</dd></div>
+<div><dt>Proof of work</dt><dd>16 projects on GitHub and 9 certifications</dd></div>
+</dl>
+</div></header>
 
-<header class="hero">
-  <div class="wrap">
-    <div class="eyebrow"><span class="cellref">A1</span> Riyadh, Saudi Arabia · Open to Data &amp; BI roles</div>
-    <h1>Saeed Ullah<br>turns raw tables into <em>decisions.</em></h1>
-    <p class="role-line">
-      Computer Science graduate working across <strong>SQL, Power BI, Python, and Excel</strong> — building
-      dashboards, cleaning messy datasets, and writing reports that hold up under scrutiny.
-    </p>
+<section id="about"><div class="wrap about">
+<h2>About</h2>
+<p>I hold a Bachelor’s degree in <b>Computer Science</b> from the University of Malakand, Pakistan. I enjoy the full path from raw data to a decision: cleaning it, writing the queries, modeling it, and presenting it in a dashboard people actually use.</p>
+<p>Alongside my day job I have built 16 projects across sales, HR, finance, retail, oil and gas, and inventory, using public datasets. Each one is on GitHub with its own write-up.</p>
+<p>My work experience is in Saudi warehouses, inventory and operations, so I understand the data behind stock, attendance, and case tracking, not only the tools.</p>
+</div></section>
 
-    <div class="fx-bar">
-      <div class="fx-label">fx</div>
-      <div class="fx-text" id="fxText"></div>
-    </div>
+<section id="experience"><div class="wrap">
+<h2>Experience</h2>
+<p class="sub">Operations and data roles where accuracy and reporting were part of the daily job.</p>
+<div class="job"><div class="when">Oct 2026 to present</div><div><h3>Inventory Associate</h3><div class="org">Noon, Riyadh</div>
+<ul class="pts"><li class="big">Counted stock across 400+ locations covering 20,000+ items.</li><li>Investigated differences between system and physical stock and flagged mismatches for correction.</li><li>Checked stock across multiple storage locations to keep availability records reliable.</li></ul></div></div>
+<div class="job"><div class="when">Aug 2026 to Sep 2026</div><div><h3>Data Clerk</h3><div class="org">Keemart, Riyadh</div>
+<ul class="pts"><li>Maintained attendance records and goods updates so warehouse data stayed current and consistent.</li><li>Prepared and organized goods-related documentation for warehouse operations.</li></ul></div></div>
+<div class="job"><div class="when">Mar 2026 to Aug 2026</div><div><h3>Data &amp; Operations Associate</h3><div class="org">Travel &amp; Visa Services Agency, Riyadh</div>
+<ul class="pts"><li>Maintained trackers for visa applications, client bookings, and case status at high daily volume.</li><li>Consolidated data from several intake sources into recurring management reports.</li><li>Standardized Excel reporting templates, cutting the time spent building weekly updates.</li></ul></div></div>
+<div class="job"><div class="when">Mar 2024 to Sep 2025</div><div><h3>Document Controller</h3><div class="org">C&amp;W, Pakistan</div>
+<ul class="pts"><li>Organized project documents, records, and correspondence to company and client standards.</li><li>Tracked submission, review, and approval cycles across departments.</li><li>Set up a filing and version-control system that improved retrieval and reduced duplicate errors.</li><li>Kept logs and registers that supported audit readiness and reporting.</li></ul></div></div>
+</div></section>
 
-    <div class="hero-tags">
-      <span class="htag">Data Analyst</span>
-      <span class="htag">Reporting Analyst</span>
-      <span class="htag">BI Analyst</span>
-      <span class="htag">Power BI Developer</span>
-      <span class="htag">Operations Analyst</span>
-    </div>
+<section id="projects"><div class="wrap">
+<h2>Projects</h2>
+<p class="sub">Select a project to see what I built and what it showed. Every project has a repository on GitHub.</p>
 
-    <div class="ledger-row reveal">
-      <div class="ledger-head">
-        <div>Row</div><div>A</div><div>B</div><div>C</div><div>D</div>
-      </div>
-      <div class="ledger-body">
-        <div class="rownum">1</div>
-        <div class="lcell"><div class="num">25</div><div class="lab">end-to-end analytics &amp; BI projects</div></div>
-        <div class="lcell"><div class="num">9</div><div class="lab">data &amp; BI certifications</div></div>
-        <div class="lcell"><div class="num">3</div><div class="lab">tools in daily use: SQL, Power BI, Excel</div></div>
-      </div>
-    </div>
-  </div>
-</header>
+<div class="group"><h3>Power BI dashboards <span>5 projects</span></h3>
+<details><summary><span class="pt">HR Attrition Analysis Dashboard</span><span class="res">Employees earning up to 5K made up about 69% of the 237 who left.</span><span class="tools">Power BI, DAX, Power Query, star schema</span></summary><div class="body"><ul class="pts">
+<li>Built KPIs and slicers (gender, department, job level) so HR can see who is leaving and why.</li>
+<li>Found that 60.34% of leavers are entry-level, most leave within two years, and ages 26 to 35 are the largest group (116 people).</li>
+<li>Added an executive summary page naming the highest-risk salary band, roles, and tenure period.</li></ul><a href="https://github.com/saeedullah-tech">View on GitHub</a></div></details>
+<details><summary><span class="pt">Oil &amp; Gas Executive Dashboard</span><span class="res">Three linked dashboards covering finance, production, safety, and emissions.</span><span class="tools">Power BI, DAX, Power Query, Excel</span></summary><div class="body"><ul class="pts">
+<li>Modeled the data as a star schema with Operations, Maintenance, and Monthly KPI fact tables.</li>
+<li>Wrote DAX for revenue, maintenance cost, production, YoY and MoM trends, and target versus actual.</li>
+<li>Added slicers, drill-through, and cross-filtering so executives can compare countries and site types.</li></ul><a href="https://github.com/saeedullah-tech">View on GitHub</a></div></details>
+<details><summary><span class="pt">European Real Estate Pricing Dashboard</span><span class="res">5,000+ listings across 10 cities, with a pricing risk model.</span><span class="tools">Power BI, DAX, data modeling, maps</span></summary><div class="body"><ul class="pts">
+<li>Wrote DAX measures for price growth %, price per m², days on market, and an amenities score.</li>
+<li>Classified listings as Overpriced, Below District Average, or Normal to show pricing risk by owner and property type.</li>
+<li>Added map visuals of price growth by city and country to support location decisions.</li></ul><a href="https://github.com/saeedullah-tech/REAL-ESTATE-dashboard">View on GitHub</a></div></details>
+<details><summary><span class="pt">Regional Sales Performance Dashboard</span><span class="res">South region trailed Central by $71K to $471K, with sales down 31% year over year.</span><span class="tools">Power BI, DAX time intelligence, star schema</span></summary><div class="body"><ul class="pts">
+<li>Modeled about 10,000 US orders (2022 to 2024) with Date, Geography, Product, and Customer dimensions.</li>
+<li>Wrote current-year, prior-year, YoY growth, and profit margin measures using SAMEPERIODLASTYEAR.</li>
+<li>Added a state map, ranked bars, monthly trend lines against the prior year, and region filters.</li></ul><a href="https://github.com/saeedullah-tech">View on GitHub</a></div></details>
+<details><summary><span class="pt">Mobile Sales Performance Dashboard</span><span class="res">4,000+ transactions in one live reporting view.</span><span class="tools">Power BI, DAX, data modeling</span></summary><div class="body"><ul class="pts">
+<li>Wrote DAX for month-to-date sales, average price, and quantity.</li>
+<li>Mapped top cities (Delhi, Mumbai, Bangalore) and compared Apple, Samsung, OnePlus, and Vivo.</li>
+<li>Linked customer ratings and payment methods to buying behavior.</li></ul><a href="https://github.com/saeedullah-tech/Mobile-Sales-Dashboard">View on GitHub</a></div></details>
+</div>
 
-<section id="about">
-  <div class="wrap">
-    <div class="section-head reveal">
-      <h2>About</h2>
-      <span class="section-tag">Cell A1:D6</span>
-    </div>
-    <div class="about-grid">
-      <div class="reveal">
-        <p>I'm Saeed Ullah, a <strong>Data Analyst</strong> with a Bachelor's degree in Computer Science who enjoys
-        transforming raw data into actionable business insights. I have hands-on experience with
-        <strong>SQL, Python, Power BI, Excel, Tableau, PostgreSQL, and R</strong>, specializing in data cleaning,
-        exploratory data analysis, interactive dashboard development, reporting, and business intelligence.</p>
-        <p>This portfolio showcases projects built using real-world datasets across <strong>sales, HR, finance, and
-        business operations</strong>. Each project demonstrates my ability to clean and analyze data, write
-        efficient SQL queries, automate workflows with Python, and develop dashboards that support
-        data-driven decision-making.</p>
-        <p>I'm committed to continuous learning and actively seeking opportunities to help organizations solve
-        business challenges through <strong>data analytics, reporting, and visualization</strong>.</p>
-      </div>
-      <div class="keyfacts reveal">
-        <div class="kf-row"><div class="kf-cell">A2</div><div class="kf-val"><strong>Query</strong> — SQL: joins, aggregations, subqueries, extraction</div></div>
-        <div class="kf-row"><div class="kf-cell">A3</div><div class="kf-val"><strong>Model</strong> — PostgreSQL, MySQL, data modeling</div></div>
-        <div class="kf-row"><div class="kf-cell">A4</div><div class="kf-val"><strong>Visualize</strong> — Power BI, Tableau, Excel dashboards</div></div>
-        <div class="kf-row"><div class="kf-cell">A5</div><div class="kf-val"><strong>Clean</strong> — Power Query, data validation, ETL</div></div>
-        <div class="kf-row"><div class="kf-cell">A6</div><div class="kf-val"><strong>Speak</strong> — English (fluent), Arabic (intermediate), Urdu (native)</div></div>
-      </div>
-    </div>
-  </div>
-</section>
+<div class="group"><h3>SQL and Python analysis <span>4 projects</span></h3>
+<details><summary><span class="pt">Retail Sales Data Analysis</span><span class="res">Transaction data cleaned and analyzed by category, customer, and time of day.</span><span class="tools">PostgreSQL, SQL, CTEs</span></summary><div class="body"><ul class="pts">
+<li>Checked key columns for nulls, then answered seven business questions with aggregations and GROUP BY.</li>
+<li>Ranked the top 5 customers by spend and compared sales across product categories.</li>
+<li>Used a CTE to split sales into morning, afternoon, and evening shifts.</li></ul><a href="https://github.com/saeedullah-tech">View on GitHub</a></div></details>
+<details><summary><span class="pt">Netflix Content Analysis</span><span class="res">14 business questions answered across the full catalog.</span><span class="tools">PostgreSQL, SQL</span></summary><div class="body"><ul class="pts">
+<li>Used window functions, array unnesting, and date parsing to break content down by country, genre, director, and cast.</li>
+<li>Found the top 5 countries by content volume and ranked India’s release years by output.</li>
+<li>Documented every query in the repository so results can be reproduced.</li></ul><a href="https://github.com/saeedullah-tech/netflixSQL-project">View on GitHub</a></div></details>
+<details><summary><span class="pt">Saudi Job Market Analysis</span><span class="res">Which skills Saudi employers ask for most in analytics roles.</span><span class="tools">SQL, Power BI, Bayt.com data</span></summary><div class="body"><ul class="pts">
+<li>Structured job-posting data by role, sector, and location into a relational format.</li>
+<li>Used SQL to find in-demand skills, role frequency, and sector concentration, then visualized them.</li></ul><a href="https://github.com/saeedullah-tech/Saudi-Job-Market-Analysis-Bayt.com-Dataset">View on GitHub</a></div></details>
+<details><summary><span class="pt">Diwali Sales Analysis</span><span class="res">11,239 clean records and a 70/30 revenue split by gender.</span><span class="tools">Python, Pandas, NumPy, Seaborn</span></summary><div class="body"><ul class="pts">
+<li>Fixed missing values and data types in 11,000+ festive-season transactions.</li>
+<li>Segmented by demographics and region with Pandas, finding top states, occupations, and product categories.</li>
+<li>Used Seaborn charts to describe the target customer profile.</li></ul><a href="https://github.com/saeedullah-tech/Sales_Analysis">View on GitHub</a></div></details>
+</div>
 
-<section id="skills">
-  <div class="wrap">
-    <div class="section-head reveal">
-      <h2>Skills &amp; Tools</h2>
-      <span class="section-tag">Cell B1:C9</span>
-    </div>
-    <div class="skills-grid">
-      <div class="reveal">
-        <div class="skill-col-head">Languages &amp; Platforms</div>
-        <div class="tag-cloud">
-          <span class="tag">SQL (PostgreSQL)</span>
-          <span class="tag">PostgreSQL &amp; pgAdmin 4</span>
-          <span class="tag">Python (Pandas, NumPy, Matplotlib, Seaborn)</span>
-          <span class="tag">Microsoft Power BI</span>
-          <span class="tag">Microsoft Excel (Power Query, Pivot Tables, Advanced Formulas)</span>
-          <span class="tag">Tableau</span>
-          <span class="tag">R Programming</span>
-        </div>
-      </div>
-      <div class="reveal">
-        <div class="skill-col-head">Tools</div>
-        <div class="tag-cloud">
-          <span class="tag">Power BI</span>
-          <span class="tag">Tabluea</span>
-          <span class="tag">R Studio</span>
-          <span class="tag">Jupyter Notebook</span>
-          <span class="tag">Visual Studio Code</span>
-          <span class="tag">Microsoft Office Suite</span>
-          <span class="tag">pgAdmin 4</span>
-          <span class="tag">Power Query</span>
-          <span class="tag">GitHub</span>
-        </div>
-      </div>
-      <div class="reveal">
-        <div class="skill-col-head">Analytical Skills</div>
-        <div class="tag-cloud">
-          <span class="tag">Data Cleaning &amp; Data Transformation</span>
-          <span class="tag">Exploratory Data Analysis (EDA)</span>
-          <span class="tag">Statistical Analysis</span>
-          <span class="tag">ETL Concepts</span>
-          <span class="tag">Data Modeling</span>
-          <span class="tag">Database Management</span>
-          <span class="tag">Dashboard Development</span>
-          <span class="tag">Data Visualization</span>
-          <span class="tag">KPI Development &amp; Performance Reporting</span>
-          <span class="tag">Business Intelligence &amp; Reporting</span>
-          <span class="tag">Trend &amp; Variance Analysis</span>
-        </div>
-      </div>
-      <div class="reveal" style="grid-column:1 / -1;">
-        <div class="skill-col-head">Professional Skills</div>
-        <div class="tag-cloud">
-          <span class="tag">Problem Solving</span>
-          <span class="tag">Analytical Thinking</span>
-          <span class="tag">Attention to Detail</span>
-          <span class="tag">Communication Skills</span>
-          <span class="tag">Documentation</span>
-          <span class="tag">Team Collaboration</span>
-          <span class="tag">Time Management</span>
-          <span class="tag">Continuous Learning</span>
-        </div>
-      </div>
-    </div>
-  </div>
-</section>
+<div class="group"><h3>Excel solutions <span>3 projects</span></h3>
+<details><summary><span class="pt">Inventory Management System</span><span class="res">A full stock tracker with automatic low-stock alerts, built in Excel with no add-ins.</span><span class="tools">Excel, pivot tables, pivot charts, formulas</span></summary><div class="body"><ul class="pts">
+<li>Two entry sheets (purchases and sales) drive the inventory ledger, dashboard, charts, and pivots automatically.</li>
+<li>Flags items that fall below their sales rate in red and shows the vendor’s phone number for re-ordering.</li>
+<li>Dashboard KPIs cover stock value, purchases, sales, and profit or loss, with top 5 product and customer rankings.</li></ul><a href="https://github.com/saeedullah-tech">View on GitHub</a></div></details>
+<details><summary><span class="pt">Operations Data Quality Monitoring</span><span class="res">Tracks every missing record from flagged to corrected.</span><span class="tools">Excel, pivot tables, conditional formatting</span></summary><div class="body"><ul class="pts">
+<li>Flagged blank cells as REVIEW and marked validated fixes as OK to keep an audit trail.</li>
+<li>Summarized pending versus completed corrections by employee and by category with pivot charts.</li></ul><a href="https://github.com/saeedullah-tech">View on GitHub</a></div></details>
+<details><summary><span class="pt">Excel Pivot Sales Dashboard</span><span class="res">Sales trends, order status, and customer segments in one filterable view.</span><span class="tools">Excel, pivot tables, pivot charts, slicers</span></summary><div class="body"><ul class="pts">
+<li>Tracked monthly sales to show seasonality and the strongest and weakest periods.</li>
+<li>Broke orders down by Delivered, Cancelled, Returned, and Refunded to expose fulfillment problems.</li>
+<li>Segmented customers by gender, age group, and state, with slicers so managers can filter without help.</li></ul><a href="https://github.com/saeedullah-tech/excel-pivot-dashboard-project">View on GitHub</a></div></details>
+</div>
 
-<section id="projects">
-  <div class="wrap">
-    <div class="section-head reveal">
-      <h2>Projects</h2>
-      <span class="section-tag">Cell C1:C14 — click a row to expand</span>
-    </div>
+<div class="group"><h3>Also on GitHub</h3>
+<div class="chips"><a class="chip" href="https://github.com/saeedullah-tech/powerbi-car-sales-dashboard">Power BI Car Sales Dashboard</a><a class="chip" href="https://github.com/saeedullah-tech/Credit-Card-Fraud-Risk-Analysis">Credit Card Fraud Risk Analysis</a><a class="chip" href="https://github.com/saeedullah-tech/Pizza-Sales-Analysis">Pizza Sales Analysis</a><a class="chip" href="https://github.com/saeedullah-tech/Library-Management-System-">Library Management System</a></div></div>
+</div></section>
 
-    <div class="ptable reveal">
-     <details class="project" open>
-        <summary class="project-sum">
-          <div class="psum-left">
-            <h3><a href="https://github.com/saeedullah-tech/REAL-ESTATE-dashboard" target="_blank">European Real Estate Market & Pricing Analytics Dashboard</a></h3>
-            <span class="tools">Power BI · DAX · Data Modeling · Bing Maps</span>
-          </div>
-          <span class="chevron">▸</span>
-        </summary>
-        <div class="project-body">
-          <ul>
-            <li>Built an interactive Power BI dashboard analyzing 5,000+ property listings across 10 major European cities to surface pricing, growth, and compliance risk patterns hidden in traditional reports.</li>
-            <li>Designed DAX measures — Price Growth %, Price per m², Days on Market, Market Speed Classification, and Premium Amenities Score — to quantify property performance and market velocity.</li>
-            <li>Built a pricing risk model classifying listings as Overpriced, Below District Average, or Normal, giving stakeholders visibility into risk exposure by property domain and listing owner.</li>
-            <li>Integrated geographic map visuals to track price growth by city and country, supporting location-driven investment and pricing decisions.</li>
-            <li>Delivered a multi-page executive dashboard linking data quality and compliance to pricing outcomes, supporting reduced holding costs and improved listing accuracy.</li>
-          </ul>
-        </div>
-      </details>
-      <details class="project" open>
-        <summary class="project-sum">
-          <div class="psum-left">
-            <h3><a href="https://github.com/saeedullah-tech/netflixSQL-project" target="_blank">Netflix Content Analysis — SQL</a></h3>
-            <span class="tools">PostgreSQL · SQL</span>
-          </div>
-          <span class="chevron">▸</span>
-        </summary>
-        <div class="project-body">
-          <ul>
-            <li>Analyzed Netflix's full movies and TV shows catalog using SQL to answer 14 business questions on content distribution, ratings, and regional trends.</li>
-            <li>Wrote advanced queries using window functions, array unnesting, and date parsing to break down content by country, genre, director, and cast.</li>
-            <li>Built a content categorization model flagging titles by keyword sentiment (e.g., violence-related themes) to support content moderation insights.</li>
-            <li>Identified the top 5 countries by content volume and ranked release years in India by average content output, surfacing regional programming trends.</li>
-            <li>Documented all queries and findings in a structured GitHub repository for reproducibility and reference.</li>
-          </ul>
-        </div>
-      </details>
-      <details class="project" open>
-  <summary class="project-sum">
-    <div class="psum-left">
-      <h3><a href="https://github.com/saeedullah-tech/Oil-Gas-Executive-Dashboard" target="_blank">Oil & Gas Executive Dashboard — Power BI</a></h3>
-      <span class="tools">Power BI · DAX · Power Query · Excel</span>
-    </div>
-    <span class="chevron">▸</span>
-  </summary>
-  <div class="project-body">
-    <ul>
-      <li>Developed a comprehensive Power BI solution consisting of three interactive dashboards: Executive Overview, Financial Performance, and Production Performance.</li>
-      <li>Built a star schema data model and created DAX measures for KPIs, Year-over-Year (YoY), Month-over-Month (MoM), trend analysis, and business performance reporting.</li>
-      <li>Designed interactive visualizations to monitor revenue, maintenance costs, production, oil prices, energy consumption, CO₂ emissions, and safety incidents across multiple countries and site types.</li>
-      <li>Transformed and cleaned raw data using Power Query, implemented dynamic slicers, cross-filtering, and conditional formatting to improve report usability.</li>
-      <li>Delivered an executive reporting solution that enables stakeholders to identify operational trends, compare country performance, and support data-driven decision-making.</li>
-    </ul>
-  </div>
-</details>
-          <details class="project" open>
-        <summary class="project-sum">
-          <div class="psum-left">
-            <h3><a href="https://github.com/saeedullah-tech/excel-pivot-dashboard-project" target="_blank">Excel Sales Performance Dashboard</a></h3>
-            <span class="tools">Excel · Pivot Tables · Pivot Charts · Slicers</span>
-          </div>
-          <span class="chevron">▸</span>
-        </summary>
-        <div class="project-body">
-          <ul>
-            <li>Built an interactive Excel dashboard using Pivot Tables and Pivot Charts to track sales performance, order status, and customer demographics across regions.</li>
-            <li>Designed monthly sales trend visuals to surface seasonality and identify high and low performing periods.</li>
-            <li>Broke down order status (Delivered, Cancelled, Returned, Refunded) to highlight fulfillment issues affecting revenue.</li>
-            <li>Segmented customer data by gender, age group, and state to identify top-performing markets and sales channels.</li>
-            <li>Added interactive slicers for Month, Status, and Channel, enabling stakeholders to filter insights without technical support.</li>
-          </ul>
-        </div>
-      </details>
+<section id="skills"><div class="wrap">
+<h2>Skills and tools</h2>
+<p class="sub">The tools I use in my projects, grouped by what I use them for.</p>
+<div class="skills">
+<div><h3>Query and model</h3><ul><li>SQL (PostgreSQL, MySQL)</li><li>pgAdmin 4</li><li>Data modeling and star schemas</li><li>Database management</li></ul></div>
+<div><h3>Visualize and report</h3><ul><li>Power BI (DAX, Power Query)</li><li>Excel (pivot tables, advanced formulas)</li><li>Tableau</li><li>KPI and performance reporting</li></ul></div>
+<div><h3>Analyze and clean</h3><ul><li>Python (Pandas, NumPy, Matplotlib, Seaborn)</li><li>R and RStudio, Jupyter</li><li>Data cleaning and ETL concepts</li><li>Exploratory, statistical, and trend analysis</li></ul></div>
+</div></div></section>
 
-      <details class="project">
-        <summary class="project-sum">
-          <div class="psum-left">
-            <h3>Payroll Automation Workbook</h3>
-            <span class="tools">Excel · Power Query</span>
-          </div>
-          <span class="chevron">▸</span>
-        </summary>
-        <div class="project-body">
-          <ul>
-            <li>Built a formula-driven workbook to automate bi-weekly payroll calculations, replacing manual line-by-line computation.</li>
-            <li>Added validation rules on input sheets to catch data-entry errors — missing hours, rate mismatches — before final calculation.</li>
-            <li>Reduced average payroll-cycle processing time through reusable formulas and a standardized template.</li>
-          </ul>
-        </div>
-      </details>
+<section id="education"><div class="wrap">
+<h2>Education and certifications</h2>
+<p class="sub">Bachelor of Science in Computer Science, University of Malakand, Pakistan.</p>
+<ul class="certs">
+<li>Microsoft Power BI</li><li>Advanced Microsoft Excel</li><li>SQL and MySQL for Data Analysis</li><li>Data Analytics with Python</li><li>Data Analytics and Business Intelligence Training</li><li>Introduction to SQL</li><li>Introduction to Finance and Accounting</li><li>Front-End Web Development</li><li>Soft Skills Training</li>
+</ul></div></section>
 
-      <details class="project">
-        <summary class="project-sum">
-          <div class="psum-left">
-            <h3><a href="https://github.com/saeedullah-tech/Saudi-Job-Market-Analysis-Bayt.com-Dataset" target="_blank">Saudi Job Market Analysis</a></h3>
-            <span class="tools">SQL · Power BI</span>
-          </div>
-          <span class="chevron">▸</span>
-        </summary>
-        <div class="project-body">
-          <ul>
-            <li>Structured job-posting data across roles, sectors, and locations in the Saudi market into a relational format for analysis.</li>
-            <li>Used SQL to surface trends in in-demand skills, role frequency, and sector concentration.</li>
-            <li>Visualized which technical skills appeared most often across analytics and BI postings.</li>
-          </ul>
-        </div>
-      </details>
-
-      <details class="project">
-        <summary class="project-sum">
-          <div class="psum-left">
-            <h3><a href="https://github.com/saeedullah-tech/Sales_Analysis" target="_blank">Python Diwali Sales Analysis</a></h3>
-            <span class="tools">Python · Pandas · NumPy · Seaborn</span>
-          </div>
-          <span class="chevron">▸</span>
-        </summary>
-        <div class="project-body">
-          <ul>
-            <li>Cleaned and analyzed 11,000+ festive-season retail transactions, resolving missing values and data type issues to produce a reliable 11,239-record dataset.</li>
-            <li>Built demographic and regional segmentation with Pandas groupby aggregations, uncovering a 70/30 revenue split by gender and identifying top-performing states, occupations, and product categories.</li>
-            <li>Visualized purchasing patterns with Seaborn to define a clear target customer profile.</li>
-          </ul>
-        </div>
-      </details>
-      <details class="project" open>
-        <summary class="project-sum">
-          <div class="psum-left">
-            <h3><a href="https://github.com/saeedullah-tech/Mobile-Sales-Dashboard" target="_blank">Mobile Sales Performance Dashboard</a></h3>
-            <span class="tools">Power BI · DAX · Data Modeling</span>
-          </div>
-          <span class="chevron">▸</span>
-        </summary>
-        <div class="project-body">
-          <ul>
-            <li>Built an interactive Power BI dashboard analyzing 4,000+ transactions to track mobile sales performance across cities, brands, and time periods.</li>
-            <li>Designed DAX measures for MTD sales, average price, and quantity aggregations, consolidating KPIs into a single real-time reporting view.</li>
-            <li>Built a geographic map visual identifying top-performing cities (Delhi, Mumbai, Bangalore), directing regional sales and marketing focus.</li>
-            <li>Analyzed brand and product-level performance across Apple, Samsung, OnePlus, and Vivo to surface best-selling models and revenue drivers.</li>
-            <li>Incorporated customer rating and payment method analysis, linking product satisfaction data to purchasing behavior for retention.</li></ul>
-            </div>
-            </details>
-    </div>
-
-    <div class="more-projects reveal">
-      <div class="cap">More on GitHub — Cell C15:C22</div>
-      <div class="chip-row">
-        <a class="chip" href="https://github.com/saeedullah-tech/powerbi-car-sales-dashboard" target="_blank">Power BI Car Sales Dashboard</a>
-        <a class="chip" href="https://github.com/saeedullah-tech/Credit-Card-Fraud-Risk-Analysis" target="_blank">Credit Card Fraud Risk Analysis</a>
-        <a class="chip" href="https://github.com/saeedullah-tech/excel-pivot-dashboard-project" target="_blank">Excel Pivot Dashboard</a>
-        <a class="chip" href="https://github.com/saeedullah-tech/Pizza-Sales-Analysis" target="_blank">Pizza Sales Analysis</a>
-        <a class="chip" href="https://github.com/saeedullah-tech/Library-Management-System-" target="_blank">Library Management System</a>
-      </div>
-    </div>
-  </div>
-</section>
-
-<section id="experience">
-  <div class="wrap">
-    <div class="section-head reveal">
-      <h2>Experience</h2>
-      <span class="section-tag">Cell D1:D2</span>
-    </div>
-
-    <div class="reveal">
-      <div class="xp-row">
-        <div class="xp-date">Mar 2026 — Present</div>
-        <div class="xp-body">
-          <h4>Data &amp; Operations Associate</h4>
-          <div class="org">Travel &amp; Visa Services Agency, Riyadh</div>
-          <ul>
-            <li>Maintain operational trackers across visa applications, client bookings, and case status with high daily transaction volume.</li>
-            <li>Consolidate data from multiple intake sources into recurring management reports.</li>
-            <li>Standardized reporting templates in Excel, cutting time spent assembling weekly updates.</li>
-          </ul>
-        </div>
-      </div>
-
-      <div class="xp-row">
-        <div class="xp-date">Mar 2024 — Sep 2025</div>
-        <div class="xp-body">
-          <h4>Document Controller</h4>
-          <div class="org">[Company Name], Pakistan</div>
-          <ul>
-            <li>Maintained and organized project documentation, records, and correspondence in line with company and client standards.</li>
-            <li>Tracked document submission, review, and approval cycles across multiple departments and stakeholders.</li>
-            <li>Implemented a structured filing and version-control system, improving document retrieval and reducing duplication errors.</li>
-            <li>Maintained accurate logs and registers to support audit readiness and reporting requirements.</li>
-          </ul>
-        </div>
-      </div>
-    </div>
-  </div>
-</section>
-
-<section id="certifications">
-  <div class="wrap">
-    <div class="section-head reveal">
-      <h2>Certifications</h2>
-      <span class="section-tag">Cell E1:E8</span>
-    </div>
-    <div class="cert-grid reveal">
-      <div class="cert"><span class="badge">✓</span> Microsoft Power BI</div>
-      <div class="cert"><span class="badge">✓</span> Advanced Microsoft Excel</div>
-      <div class="cert"><span class="badge">✓</span> SQL &amp; MySQL for Data Analysis</div>
-      <div class="cert"><span class="badge">✓</span> Data Analytics with Python</div>
-      <div class="cert"><span class="badge">✓</span> Data Analytics &amp; Business Intelligence Training</div>
-      <div class="cert"><span class="badge">✓</span> Introduction to Finance &amp; Accounting</div>
-      <div class="cert"><span class="badge">✓</span> Front-End Web Development</div>
-      <div class="cert"><span class="badge">✓</span> Soft Skills Training</div>
-    </div>
-  </div>
-</section>
-
-<footer id="contact">
-  <div class="wrap footer-inner reveal">
-    <h2>Let's talk data.</h2>
-    <p>Open to Data Analyst, Reporting Analyst, BI Analyst, Operations Analyst, and entry-level Business
-    Analyst roles across Saudi Arabia. Based in Riyadh with a transferable Iqama.</p>
-    <div class="contact-row">
-      <a class="contact-btn primary" href="mailto:Saeedtech990@gmail.com">Saeedtech990@gmail.com</a>
-      <a class="contact-btn" href="https://www.linkedin.com/in/saeed-ullah-83806a3a8" target="_blank" rel="noopener">LinkedIn</a>
-      <a class="contact-btn" href="https://github.com/saeedullah-tech" target="_blank" rel="noopener">GitHub</a>
-    </div>
-    <div class="balance-line">
-      <span>© 2026 Saeed Ullah — Riyadh, Saudi Arabia</span>
-      <span>Status: Open to opportunities</span>
-    </div>
-  </div>
-</footer>
-
-<script>
-  // formula bar cycling
-  const formulas = [
-    { fx: '=JOIN(SQL, "Power BI", Python, Excel)', out: '→ Data Analyst' },
-    { fx: '=CLEAN(raw_data) → dashboard', out: '→ Reporting Analyst' },
-    { fx: '=VLOOKUP("root cause", data!A:Z)', out: '→ BI Analyst' },
-    { fx: '=SUM(49000, 25, 9) & " wins"', out: '→ Operations Analyst' }
-  ];
-  const el = document.getElementById('fxText');
-  const reduceMotion = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
-
-  function typeLoop(){
-    if(reduceMotion){ el.textContent = formulas[0].fx + '  ' + formulas[0].out; return; }
-    let i = 0;
-    const step = () => {
-      const item = formulas[i % formulas.length];
-      const full = item.fx;
-      let pos = 0;
-      el.innerHTML = '';
-      const typer = setInterval(() => {
-        pos++;
-        el.innerHTML = full.slice(0, pos) + '<span class="cursor"></span>';
-        if(pos >= full.length){
-          clearInterval(typer);
-          setTimeout(() => {
-            el.innerHTML = full + '  <span style="color:var(--gold)">' + item.out + '</span><span class="cursor"></span>';
-            setTimeout(() => { i++; step(); }, 1800);
-          }, 250);
-        }
-      }, 28);
-    };
-    step();
-  }
-  typeLoop();
-
-  // scroll reveal
-  const items = document.querySelectorAll('.reveal');
-  if('IntersectionObserver' in window && !reduceMotion){
-    const io = new IntersectionObserver((entries) => {
-      entries.forEach(e => { if(e.isIntersecting){ e.target.classList.add('in'); io.unobserve(e.target); } });
-    }, { threshold: 0.12 });
-    items.forEach(it => io.observe(it));
-  } else {
-    items.forEach(it => it.classList.add('in'));
-  }
-</script>
-
+<section id="contact" class="contact"><div class="wrap">
+<h2>Open to Data and BI roles in Saudi Arabia</h2>
+<p>I am in Riyadh with a transferable Iqama and can interview in English, with Arabic at an intermediate level. Send me a role and I will reply with relevant projects.</p>
+<div class="cta"><a class="btn main" href="mailto:Saeedtech990@gmail.com">Saeedtech990@gmail.com</a><a class="btn" href="https://www.linkedin.com/">LinkedIn</a><a class="btn" href="https://github.com/saeedullah-tech">GitHub</a><a class="btn" href="CV.pdf">Download CV</a></div>
+</div></section>
+<footer><div class="wrap">© 2026 Saeed Ullah, Riyadh, Saudi Arabia</div></footer>
 </body>
 </html>
