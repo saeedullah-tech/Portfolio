@@ -4,7 +4,7 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Saeed Ullah | Data &amp; BI Analyst, Riyadh</title>
-<meta name="description" content="Data and BI analyst in Riyadh. SQL, Power BI, Excel and Python. 16 portfolio projects, 9 certifications.">
+<meta name="description" content="Data, reporting and analytics professional in Riyadh. SQL, Power BI, Excel and Python. 16 portfolio projects, 9 certifications.">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:wght@500;700&family=Source+Sans+3:wght@400;600&display=swap" rel="stylesheet">
 <style>
@@ -108,7 +108,7 @@ footer{background:var(--ink);color:#8FA2B4;font-size:14px;padding:0 0 32px}
 <p class="lede">I turn messy tables into dashboards and reports that managers can act on. I work in <b>SQL, Power BI, Excel and Python</b>, and I already handle stock and data for 400+ locations at Noon.</p>
 <div class="cta"><a class="btn main" href="CV.pdf">Download CV</a><a class="btn" href="#projects">See my projects</a><a class="btn" href="mailto:Saeedtech990@gmail.com">Email me</a></div>
 <dl class="snap">
-<div><dt>Looking for</dt><dd>Junior Data Analyst, BI Analyst, Power BI Developer, Reporting or Operations Analyst</dd></div>
+<div><dt>Looking for</dt><dd>Any data, reporting, or analytics role where I can use SQL, Power BI, Excel, and Python</dd></div>
 <div><dt>Based in</dt><dd>Riyadh, Saudi Arabia (transferable Iqama)</dd></div>
 <div><dt>Languages</dt><dd>English (fluent), Arabic (intermediate), Urdu (native)</dd></div>
 <div><dt>Proof of work</dt><dd>16 projects on GitHub and 9 certifications</dd></div>
@@ -139,7 +139,7 @@ footer{background:var(--ink);color:#8FA2B4;font-size:14px;padding:0 0 32px}
 <h2>Projects</h2>
 <p class="sub">Select a project to see what I built and what it showed. Every project has a repository on GitHub.</p>
 
-<div class="group"><h3>Power BI dashboards <span>5 projects</span></h3>
+<div class="group"><h3>Power BI dashboards <span>6 projects</span></h3>
 <details><summary><span class="pt">HR Attrition Analysis Dashboard</span><span class="res">Employees earning up to 5K made up about 69% of the 237 who left.</span><span class="tools">Power BI, DAX, Power Query, star schema</span></summary><div class="body"><ul class="pts">
 <li>Built KPIs and slicers (gender, department, job level) so HR can see who is leaving and why.</li>
 <li>Found that 60.34% of leavers are entry-level, most leave within two years, and ages 26 to 35 are the largest group (116 people).</li>
@@ -160,9 +160,10 @@ footer{background:var(--ink);color:#8FA2B4;font-size:14px;padding:0 0 32px}
 <li>Wrote DAX for month-to-date sales, average price, and quantity.</li>
 <li>Mapped top cities (Delhi, Mumbai, Bangalore) and compared Apple, Samsung, OnePlus, and Vivo.</li>
 <li>Linked customer ratings and payment methods to buying behavior.</li></ul><a href="https://github.com/saeedullah-tech/Mobile-Sales-Dashboard">View on GitHub</a></div></details>
+<details><summary><span class="pt">Credit Card Fraud Risk Dashboard</span><span class="res">Identity theft was the largest fraud type at 24%, and December had the most cases (34).</span><span class="tools">Power BI, DAX, data visualization</span></summary><div class="body"><ul class="pts"><li>Built KPI cards for fraud rate (28.6%) and fraud cases (286), with filters for fraud type, state, and merchant.</li><li>Compared transaction amounts across five fraud types and six categories, showing card-not-present fraud with the highest amounts and e-commerce and transportation as frequent targets.</li><li>Charted fraud by state (Maharashtra 36, Karnataka 34) and by month, plus a donut chart of amounts by risk level.</li><li>Wrote DAX measures for fraud rate %, fraud count, and total transaction amount.</li></ul><a href="https://github.com/saeedullah-tech/Credit-Card-Fraud-Risk-Analysis">View on GitHub</a></div></details>
 </div>
 
-<div class="group"><h3>SQL and Python analysis <span>4 projects</span></h3>
+<div class="group"><h3>SQL and Python analysis <span>6 projects</span></h3>
 <details><summary><span class="pt">Retail Sales Data Analysis</span><span class="res">Transaction data cleaned and analyzed by category, customer, and time of day.</span><span class="tools">PostgreSQL, SQL, CTEs</span></summary><div class="body"><ul class="pts">
 <li>Checked key columns for nulls, then answered seven business questions with aggregations and GROUP BY.</li>
 <li>Ranked the top 5 customers by spend and compared sales across product categories.</li>
@@ -178,6 +179,8 @@ footer{background:var(--ink);color:#8FA2B4;font-size:14px;padding:0 0 32px}
 <li>Fixed missing values and data types in 11,000+ festive-season transactions.</li>
 <li>Segmented by demographics and region with Pandas, finding top states, occupations, and product categories.</li>
 <li>Used Seaborn charts to describe the target customer profile.</li></ul><a href="https://github.com/saeedullah-tech/Sales_Analysis">View on GitHub</a></div></details>
+<details><summary><span class="pt">Pizza Sales Analysis</span><span class="res">817.86K revenue from 21,350 orders and 49,574 pizzas, with an average order of 38.31.</span><span class="tools">PostgreSQL, SQL, Power BI</span></summary><div class="body"><ul class="pts"><li>Used SQL to calculate revenue, average order value, pizzas per order, and each category and size’s share of sales, then trends by day, month, and quarter.</li><li>Built a two-page Power BI report: a sales overview and a best-and-worst sellers page ranked by revenue, quantity, and orders.</li><li>Found that sales peak in July and on Friday and Saturday evenings, the Classic category earns the most, and Large pizzas dominate revenue.</li><li>Thai Chicken Pizza earned the most revenue, while Classic Deluxe led in quantity and orders.</li></ul><a href="https://github.com/saeedullah-tech/Pizza-Sales-Analysis">View on GitHub</a></div></details>
+<details><summary><span class="pt">Library Management System</span><span class="res">A six-table PostgreSQL database with 16 queries, from data entry to branch performance reports.</span><span class="tools">PostgreSQL, pgAdmin, SQL</span></summary><div class="body"><ul class="pts"><li>Designed the schema for branches, employees, books, members, issued books, and returns, with primary and foreign keys.</li><li>Wrote queries covering inserts, updates, deletes, joins, subqueries, GROUP BY, and HAVING.</li><li>Used CREATE TABLE AS to build summary tables for book issue counts, active members, and a branch performance report (books issued, returned, and revenue).</li><li>Built an overdue report that lists books not returned after 30 days, with member details and days overdue.</li></ul><a href="https://github.com/saeedullah-tech/Library-Management-System-">View on GitHub</a></div></details>
 </div>
 
 <div class="group"><h3>Excel solutions <span>3 projects</span></h3>
@@ -195,7 +198,7 @@ footer{background:var(--ink);color:#8FA2B4;font-size:14px;padding:0 0 32px}
 </div>
 
 <div class="group"><h3>Also on GitHub</h3>
-<div class="chips"><a class="chip" href="https://github.com/saeedullah-tech/powerbi-car-sales-dashboard">Power BI Car Sales Dashboard</a><a class="chip" href="https://github.com/saeedullah-tech/Credit-Card-Fraud-Risk-Analysis">Credit Card Fraud Risk Analysis</a><a class="chip" href="https://github.com/saeedullah-tech/Pizza-Sales-Analysis">Pizza Sales Analysis</a><a class="chip" href="https://github.com/saeedullah-tech/Library-Management-System-">Library Management System</a></div></div>
+<div class="chips"><a class="chip" href="https://github.com/saeedullah-tech/powerbi-car-sales-dashboard">Power BI Car Sales Dashboard</a></div></div>
 </div></section>
 
 <section id="skills"><div class="wrap">
@@ -215,9 +218,9 @@ footer{background:var(--ink);color:#8FA2B4;font-size:14px;padding:0 0 32px}
 </ul></div></section>
 
 <section id="contact" class="contact"><div class="wrap">
-<h2>Open to Data and BI roles in Saudi Arabia</h2>
-<p>I am in Riyadh with a transferable Iqama and can interview in English, with Arabic at an intermediate level. Send me a role and I will reply with relevant projects.</p>
-<div class="cta"><a class="btn main" href="mailto:Saeedtech990@gmail.com">Saeedtech990@gmail.com</a><a class="btn" href="https://www.linkedin.com/">LinkedIn</a><a class="btn" href="https://github.com/saeedullah-tech">GitHub</a><a class="btn" href="CV.pdf">Download CV</a></div>
+<h2>Open to data, reporting, and analytics roles in Saudi Arabia</h2>
+<p>Data and BI analyst, reporting and MIS, business and operations analyst, supply chain and inventory analytics, or data coordination and master data: if the job runs on data and reports, I can contribute. I am in Riyadh with a transferable Iqama and can interview in English, with Arabic at an intermediate level. Send me a role and I will reply with relevant projects.</p>
+<div class="cta"><a class="btn main" href="mailto:Saeedtech990@gmail.com">Saeedtech990@gmail.com</a><a class="btn" href="https://www.linkedin.com/in/saeedullah-tech">LinkedIn</a><a class="btn" href="https://github.com/saeedullah-tech">GitHub</a><a class="btn" href="CV.pdf">Download CV</a></div>
 </div></section>
 <footer><div class="wrap">© 2026 Saeed Ullah, Riyadh, Saudi Arabia</div></footer>
 </body>
