@@ -106,7 +106,7 @@ footer{background:var(--ink);color:#8FA2B4;font-size:14px;padding:0 0 32px}
 <header id="top"><div class="wrap">
 <h1>Saeed Ullah, data and BI analyst in Riyadh</h1>
 <p class="lede">I turn messy tables into dashboards and reports that managers can act on. I work in <b>SQL, Power BI, Excel and Python</b>, and I already handle stock and data for 400+ locations at Noon.</p>
-<div class="cta"><a class="btn main" href="CV.pdf">Download CV</a><a class="btn" href="#projects">See my projects</a><a class="btn" href="mailto:Saeedtech990@gmail.com">Email me</a></div>
+<div class="cta"><a class="btn main" href="https://github.com/saeedullah-tech/Portfolio/blob/9590a684dcdda8077942bb68d0ee42b986a8df4e/Saeed_Data%20Analysis.pdf">Download CV</a><a class="btn" href="#projects">See my projects</a><a class="btn" href="mailto:Saeedtech990@gmail.com">Email me</a></div>
 <dl class="snap">
 <div><dt>Looking for</dt><dd>Any data, reporting, or analytics role where I can use SQL, Power BI, Excel, and Python</dd></div>
 <div><dt>Based in</dt><dd>Riyadh, Saudi Arabia (transferable Iqama)</dd></div>
@@ -220,7 +220,7 @@ footer{background:var(--ink);color:#8FA2B4;font-size:14px;padding:0 0 32px}
 <section id="contact" class="contact"><div class="wrap">
 <h2>Open to data, reporting, and analytics roles in Saudi Arabia</h2>
 <p>Data and BI analyst, reporting and MIS, business and operations analyst, supply chain and inventory analytics, or data coordination and master data: if the job runs on data and reports, I can contribute. I am in Riyadh with a transferable Iqama and can interview in English, with Arabic at an intermediate level. Send me a role and I will reply with relevant projects.</p>
-<div class="cta"><a class="btn main" href="mailto:Saeedtech990@gmail.com">Saeedtech990@gmail.com</a><a class="btn" href="https://www.linkedin.com/in/saeedullah-tech">LinkedIn</a><a class="btn" href="https://github.com/saeedullah-tech">GitHub</a><a class="btn" href="CV.pdf">Download CV</a></div>
+<div class="cta"><a class="btn main" href="mailto:Saeedtech990@gmail.com">Saeedtech990@gmail.com</a><a class="btn" href="https://www.linkedin.com/in/saeedullah-tech">LinkedIn</a><a class="btn" href="https://github.com/saeedullah-tech">GitHub</a><a class="btn" href="https://github.com/saeedullah-tech/Portfolio/blob/9590a684dcdda8077942bb68d0ee42b986a8df4e/Saeed_Data%20Analysis.pdf">Download CV</a></div>
 </div></section>
 <footer><div class="wrap">© 2026 Saeed Ullah, Riyadh, Saudi Arabia</div></footer>
 </body>
