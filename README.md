@@ -4,7 +4,7 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Saeed Ullah | Data &amp; BI Analyst, Riyadh</title>
-<meta name="description" content="Data, reporting and analytics professional in Riyadh. SQL, Power BI, Excel and Python. 16 portfolio projects, 9 certifications.">
+<meta name="description" content="Data, reporting and analytics professional in Riyadh. SQL, Power BI, Excel and Python. 17 portfolio projects, 9 certifications.">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:wght@500;700&family=Source+Sans+3:wght@400;600&display=swap" rel="stylesheet">
 <style>
@@ -106,19 +106,19 @@ footer{background:var(--ink);color:#8FA2B4;font-size:14px;padding:0 0 32px}
 <header id="top"><div class="wrap">
 <h1>Saeed Ullah, data and BI analyst in Riyadh</h1>
 <p class="lede">I turn messy tables into dashboards and reports that managers can act on. I work in <b>SQL, Power BI, Excel and Python</b>, and I already handle stock and data for 400+ locations at Noon.</p>
-<div class="cta"><a class="btn main" href="https://github.com/saeedullah-tech/Portfolio/blob/9590a684dcdda8077942bb68d0ee42b986a8df4e/Saeed_Data%20Analysis.pdf">Download CV</a><a class="btn" href="#projects">See my projects</a><a class="btn" href="mailto:Saeedtech990@gmail.com">Email me</a></div>
+<div class="cta"><a class="btn main" href="CV.pdf">Download CV</a><a class="btn" href="#projects">See my projects</a><a class="btn" href="mailto:Saeedtech990@gmail.com">Email me</a></div>
 <dl class="snap">
 <div><dt>Looking for</dt><dd>Any data, reporting, or analytics role where I can use SQL, Power BI, Excel, and Python</dd></div>
 <div><dt>Based in</dt><dd>Riyadh, Saudi Arabia (transferable Iqama)</dd></div>
 <div><dt>Languages</dt><dd>English (fluent), Arabic (intermediate), Urdu (native)</dd></div>
-<div><dt>Proof of work</dt><dd>16 projects on GitHub and 9 certifications</dd></div>
+<div><dt>Proof of work</dt><dd>17 projects on GitHub and 9 certifications</dd></div>
 </dl>
 </div></header>
 
 <section id="about"><div class="wrap about">
 <h2>About</h2>
 <p>I hold a Bachelor’s degree in <b>Computer Science</b> from the University of Malakand, Pakistan. I enjoy the full path from raw data to a decision: cleaning it, writing the queries, modeling it, and presenting it in a dashboard people actually use.</p>
-<p>Alongside my day job I have built 16 projects across sales, HR, finance, retail, oil and gas, and inventory, using public datasets. Each one is on GitHub with its own write-up.</p>
+<p>Alongside my day job I have built 17 projects across sales, HR, finance, retail, oil and gas, and inventory, using public datasets. Each one is on GitHub with its own write-up.</p>
 <p>My work experience is in Saudi warehouses, inventory and operations, so I understand the data behind stock, attendance, and case tracking, not only the tools.</p>
 </div></section>
 
@@ -139,7 +139,7 @@ footer{background:var(--ink);color:#8FA2B4;font-size:14px;padding:0 0 32px}
 <h2>Projects</h2>
 <p class="sub">Select a project to see what I built and what it showed. Every project has a repository on GitHub.</p>
 
-<div class="group"><h3>Power BI dashboards <span>6 projects</span></h3>
+<div class="group"><h3>Power BI and Tableau dashboards <span>7 projects</span></h3>
 <details><summary><span class="pt">HR Attrition Analysis Dashboard</span><span class="res">Employees earning up to 5K made up about 69% of the 237 who left.</span><span class="tools">Power BI, DAX, Power Query, star schema</span></summary><div class="body"><ul class="pts">
 <li>Built KPIs and slicers (gender, department, job level) so HR can see who is leaving and why.</li>
 <li>Found that 60.34% of leavers are entry-level, most leave within two years, and ages 26 to 35 are the largest group (116 people).</li>
@@ -160,6 +160,7 @@ footer{background:var(--ink);color:#8FA2B4;font-size:14px;padding:0 0 32px}
 <li>Wrote DAX for month-to-date sales, average price, and quantity.</li>
 <li>Mapped top cities (Delhi, Mumbai, Bangalore) and compared Apple, Samsung, OnePlus, and Vivo.</li>
 <li>Linked customer ratings and payment methods to buying behavior.</li></ul><a href="https://github.com/saeedullah-tech/Mobile-Sales-Dashboard">View on GitHub</a></div></details>
+<details><summary><span class="pt">Tableau HR Analytics Dashboard</span><span class="res">237 of 1,470 employees left (16%), mostly in R&amp;D and the 25 to 34 age group.</span><span class="tools">Tableau, dashboard design</span></summary><div class="body"><ul class="pts"><li>Built a one-page HR dashboard with KPI cards for employee count, attrition count, attrition rate, active employees, and average age, plus an education filter.</li><li>Broke attrition down by department (R&amp;D 133, Sales 92, HR 12), education field, and gender (150 male, 87 female).</li><li>Compared attrition by gender across five age groups, with ages 25 to 34 the largest at 112 leavers.</li><li>Added a job satisfaction heatmap by job role to show where low ratings are concentrated.</li></ul><a href="https://github.com/saeedullah-tech">View on GitHub</a></div></details>
 <details><summary><span class="pt">Credit Card Fraud Risk Dashboard</span><span class="res">Identity theft was the largest fraud type at 24%, and December had the most cases (34).</span><span class="tools">Power BI, DAX, data visualization</span></summary><div class="body"><ul class="pts"><li>Built KPI cards for fraud rate (28.6%) and fraud cases (286), with filters for fraud type, state, and merchant.</li><li>Compared transaction amounts across five fraud types and six categories, showing card-not-present fraud with the highest amounts and e-commerce and transportation as frequent targets.</li><li>Charted fraud by state (Maharashtra 36, Karnataka 34) and by month, plus a donut chart of amounts by risk level.</li><li>Wrote DAX measures for fraud rate %, fraud count, and total transaction amount.</li></ul><a href="https://github.com/saeedullah-tech/Credit-Card-Fraud-Risk-Analysis">View on GitHub</a></div></details>
 </div>
 
@@ -220,7 +221,7 @@ footer{background:var(--ink);color:#8FA2B4;font-size:14px;padding:0 0 32px}
 <section id="contact" class="contact"><div class="wrap">
 <h2>Open to data, reporting, and analytics roles in Saudi Arabia</h2>
 <p>Data and BI analyst, reporting and MIS, business and operations analyst, supply chain and inventory analytics, or data coordination and master data: if the job runs on data and reports, I can contribute. I am in Riyadh with a transferable Iqama and can interview in English, with Arabic at an intermediate level. Send me a role and I will reply with relevant projects.</p>
-<div class="cta"><a class="btn main" href="mailto:Saeedtech990@gmail.com">Saeedtech990@gmail.com</a><a class="btn" href="https://www.linkedin.com/in/saeedullah-tech">LinkedIn</a><a class="btn" href="https://github.com/saeedullah-tech">GitHub</a><a class="btn" href="https://github.com/saeedullah-tech/Portfolio/blob/9590a684dcdda8077942bb68d0ee42b986a8df4e/Saeed_Data%20Analysis.pdf">Download CV</a></div>
+<div class="cta"><a class="btn main" href="mailto:Saeedtech990@gmail.com">Saeedtech990@gmail.com</a><a class="btn" href="https://www.linkedin.com/in/saeedullah-tech">LinkedIn</a><a class="btn" href="https://github.com/saeedullah-tech">GitHub</a><a class="btn" href="CV.pdf">Download CV</a></div>
 </div></section>
 <footer><div class="wrap">© 2026 Saeed Ullah, Riyadh, Saudi Arabia</div></footer>
 </body>
